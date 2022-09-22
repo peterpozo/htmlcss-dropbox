@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
+
+/* Header  */
 
 header .topbar{
     padding: 20px 1%;
@@ -46,12 +48,11 @@ header .topbar{
 }
 
 .topbar .main-menu li{
-    color: grey;
     font-size: 15px;
 }
 
 .topbar .buttom-column{
-    background-color: blue;
+    background-color: #0061ff;
     padding: 5px 10px;
 
 }
@@ -60,5 +61,60 @@ header .topbar{
     color: white;
     text-decoration: none;
     font-size: 15px;
-
 }
+
+/* Blocco-1  */
+
+.container-header{
+    background-color: #b5d1e8;
+    padding-top: 100px;
+}
+
+.header-main{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-main-box-title{
+    font-size: 100px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-main-box-main{
+    display: flex;   
+}
+
+.img-header-box-main{
+    width:100%;
+    height:100%;   
+}
+
+.testo{
+ line-height: 1.5rem;
+}
+
+.header-main-box-main .img-header-box-main{
+    width: 70%;
+}
+
+.BottoneH{
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.font-awesome-arrow{
+font-size: 60px;
+padding-top: 15rem;
+}
+.header-box-bottone{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
