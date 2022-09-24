@@ -301,3 +301,34 @@ hr{
     text-decoration: none;
     white-space: nowrap;
 }
+
+/* Container box-4 */
+
+.container-box-4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.fuori-box-3{
+    width: calc(80% / 3);
+    margin: 30px;
+}
+
+.image-box4{
+    width: 100%;
+}
+
+.h3-boxes-4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+.paragraf-boxes-4{
+    line-height: 1.5;
+}
+
+.h2-box-4{
+    padding-bottom: 4rem;
+}
