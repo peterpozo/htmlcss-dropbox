@@ -144,7 +144,7 @@ padding-top: 15rem;
     width: calc(90% / 3);
     border-style: solid;
     border-width: 1px;
-    border-color: gray
+    border-color: lightgray
 }
 
 .contenuto-box{
@@ -160,7 +160,7 @@ padding-top: 15rem;
     border-bottom: solid;
     text-align: center;
     border-width: 1px;
-    border-color: gray
+    border-color: lightgray
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -209,7 +209,7 @@ h3{
 
 hr{
     width: 100px;
-    color: gray;
+    color: lightgray;
 }
 
 .fa-sharp{
@@ -226,6 +226,7 @@ hr{
     border-style: solid;
     border-top: none;
     border-width: 1px;
+    border-color: lightgray
 }
 
 .interno-box-1{
@@ -243,7 +244,7 @@ hr{
     padding: 5px;
     text-align: center;
     border-width: 1px;
-    border-color: gray
+    border-color: lightgray
 }
 
 .BottoneH-b{
@@ -376,7 +377,9 @@ hr{
 }  
 .qu-verde img{
     width: 100%;
-    filter: invert(100%) sepia(0%) saturate(7448%) hue-rotate(15deg) brightness(96%) contrast(101%);
+}
+.quadrati-colorati .quadrato img{
+    filter: invert(1) 
 }
 .qu-verde{
     background-color: #a3d49c;
@@ -489,11 +492,37 @@ width: 100%;
 .titolo-sec-celeste{
     color: #610227;
 }
+/* Container-4  */
 
+.container-4{
+    margin: 0 auto;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    max-width: 1200px;
+}
+.container-domande{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+}
+.container-domande .titolo-domande{
+    padding-bottom: 2rem;
+    border-bottom: 0.1px solid black;
+}
+.domande{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 0.1px solid black;
+}
+.domande .fa-solid{
+    padding-left: 29rem;
+}
 /* Footer */
+
 footer{
     background-color: black;
     padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 .footer-top{
@@ -525,4 +554,23 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
+}
+
+.footer-bottom{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-text{
+    color: white;
+    padding-top: 2rem;
+}
+
+.footer-text .fa-solid{
+    padding-right: 3px;
 }
