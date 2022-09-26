@@ -513,6 +513,8 @@ width: 100%;
     padding-bottom: 2rem;
     padding-top: 2rem;
     border-bottom: 0.1px solid black;
+    font-family: arial;
+    font-weight: 500;
 }
 .domande .fa-solid{
     padding-left: 29rem;
@@ -567,10 +569,12 @@ footer{
 }
 
 .footer-text{
-    color: white;
-    padding-top: 2rem;
+    color: lightgray;
+    padding-top: 3rem;
 }
 
 .footer-text .fa-solid{
     padding-right: 3px;
 }
+
+.
