@@ -121,6 +121,9 @@ header .topbar{
 font-size: 60px;
 padding-top: 15rem;
 }
+.font-awesome-arrow a{
+    color: black;
+}
 .header-box-bottone{
     padding-top: 35px;
     padding-bottom: 35px;
@@ -383,6 +386,7 @@ hr{
 }
 .qu-verde{
     background-color: #a3d49c;
+    border: solid #d2eace 10px;
 }
 
 .qu-vino{
@@ -519,6 +523,7 @@ width: 100%;
 .domande .fa-solid{
     padding-left: 29rem;
 }
+
 /* Footer */
 
 footer{
